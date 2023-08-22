@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jichan resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #u_skip {
+            position: relative;
+            z-index: 3000;
+        }
+
+        #u_skip a {
+            position: absolute;
+            top: -60px;
+            left: 0;
+            width: 138px;
+            background: #333;
+            text-align: center;
+        }
+
+        #u_skip a:focus {
+            top: 0px;
+            border: 2px solid #4ec53d;
+        }
+
+        #u_skip span {
+            display: inline-block;
+            padding: 2px 6px 0 0;
+            font-size: 13px;
+            line-height: 26px;
+            color: #fff;
+            letter-spacing: -1px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="sr-only">임지찬 이력서</h1>
+
+    <div id="u_skip">
+        <a href="#details">
+            <span>Details 바로가기</span>
+        </a>
+        <a href="#degree">
+            <span>Degree 바로가기</span>
+        </a>
+        <a href="#skills">
+            <span>skills 바로가기</span>
+        </a>
+        <a href="#profile">
+            <span>Profile 바로가기</span>
+        </a>
+        <a href="#projectHistory">
+            <span>Project History 바로가기</span>
+        </a>
+    </div>
+
+    <main class="container lg:p-20 p-8 space-y-8">
+
+        <section class="lg:flex">
+            <div class="lg:w-1/4">
+                <img src="profile.png" alt="profile img"
+                    class="rounded-full h-32 w-32 lg:h-48 lg:w-48 object-cover object-top">
+            </div>
+            <div class="lg:w-3/4">
+                <div class="text-5xl lg:text-7xl">jichan<span class="text-[#3EAF0E]">.Lim<span></div>
+                <div class="mt-6 text-gray-400 font-bold">Developer, Front-end developer</div>
+            </div>
+        </section>
+
+        <div class="lg:flex">
+            <aside class="lg:w-1/4 flex-col">
+                <div id="details" class="space-y-8">
+                    <div class="text-2xl text-[#3EAF0E] font-bold"><span
+                            class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">1</span> Details
+                    </div>
+                    <div class="ml-10">
+                        <div class="text-xl">Github</div>
+                        <a class="text-gray-400" href="https://github.com/jichani"
+                            target="_blank">https://github.com/jichani</a>
+                    </div>
+                    <div class="ml-10">
+                        <div class="text-xl">Pick Project</div>
+                        <ul class="pl-10 list-disc space-y-2">
+                            <li class="mt-2"><a class="text-gray-400"
+                                    href="https://github.com/jichani/korean_endangered_species" target="_blank">멸종위기종
+                                    웹페이지
+                                    제작</a></li>
+                            <li><a class="text-gray-400" href="https://github.com/jichani/spavalley_project"
+                                    target="_blank">스파밸리
+                                    웹페이지 리뉴얼</a>
+                            </li>
+                            <li><a class="text-gray-400" href="https://github.com/jichani/Dongseongno-project"
+                                    target="_blank">동성로랑 웹페이지
+                                    제작</a></li>
+                        </ul>
+                    </div>
+                    <div class="ml-10 space-y-2">
+                        <div class="text-xl">Homepage And Service</div>
+
+                        <a class="text-gray-400 inline-block" href="https://korean-endangered-species.netlify.app"
+                            target="_blank">https://korean-endangered-species.netlify.app</a>
+                        <a class="text-gray-400 inline-block" href="https://spavalley-project.netlify.app"
+                            target="_blank">https://spavalley-project.netlify.app</a>
+                        <a class="text-gray-400 inline-block" href="https://dongseongnorang-project.netlify.app"
+                            target="_blank">https://dongseongnorang-project.netlify.app</a>
+                    </div>
+                    <div class="ml-10">
+                        <div class="text-xl">Skill</div>
+                        <ul class="pl-10 list-disc space-y-2">
+                            <li class="mt-2 text-gray-500">1bar-Project 3개 미만</li>
+                            <li class="text-gray-500">2bar-Project 3개 이상</li>
+                            <li class="text-gray-500">3bar-자신있음</li>
+                        </ul>
+
+                        <div class="flex gap-3 mt-4">
+                            <div class="w-1/6">HTML</div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        </div>
+                        <div class="flex gap-3 mt-2">
+                            <div class="w-1/6">CSS</div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        </div>
+                        <div class="flex gap-3 mt-2">
+                            <div class="w-1/6">JS</div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        </div>
+                        <div class="flex gap-3 mt-2">
+                            <div class="w-1/6">Sass</div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        </div>
+                        <div class="flex gap-3 mt-2">
+                            <div class="w-1/6">Tailwind</div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        </div>
+                        <div class="flex gap-3 mt-2">
+                            <div class="w-1/6">React</div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        </div>
+                        <div class="flex gap-3 mt-2">
+                            <div class="w-1/6">C#</div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        </div>
+                        <div class="flex gap-3 mt-2">
+                            <div class="w-1/6">Python</div>
+                            <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="degree" class="mt-8 flex-col space-y-8">
+                    <div class="text-2xl text-[#3EAF0E] font-bold"><span
+                            class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">2</span> Degree
+                    </div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">계명대학교 <span
+                                class="text-sm text-gray-600">2015.03. - 2021.02</span></div>
+                        <ul class="pl-10 list-disc space-y-2">
+                            <li class="mt-2 text-gray-600">생명과학과 전공</li>
+                            <li class="mt-2 text-gray-600">화학과 (부)전공</li>
+                            <li class="mt-2 text-gray-500">평점, 3.69/4.5</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="skills" class="mt-8 flex-col space-y-8">
+                    <div class="text-2xl text-[#3EAF0E] font-bold"><span
+                            class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">3</span> Skills
+                    </div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">어학성적</div>
+                        <ul class="pl-10 list-disc space-y-2">
+                            <li class="mt-2 text-gray-600">TOEIC, 635</li>
+                        </ul>
+                    </div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">자격증</div>
+                        <ul class="pl-10 list-disc space-y-2">
+                            <li class="mt-2 text-gray-600">컴퓨터활용능력 2급</li>
+                            <li class="mt-2 text-gray-600">워드 1급</li>
+                            <li class="mt-2 text-gray-600">한국실용글쓰기 3급</li>
+                            <li class="mt-2 text-gray-600">한국사능력검정 3급</li>
+                            <li class="mt-2 text-gray-600">운전면허증 1종 보통</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="lg:w-3/4 lg:m-0 mt-6">
+                <div id="profile">
+                    <div class="text-2xl text-[#3EAF0E] font-bold"><span
+                            class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">4</span> Profile
+                    </div>
+                    <div class="mt-4 space-y-4 ml-12">
+                        <div>
+                            안녕하세요! 저는 계명대학교에서 생명과학과를 전공하고 화학 부전공을 졸업한 학생입니다. 2015년부터 2021년 2월까지 계명대학교에서의 학업 동안 생명과학과 화학
+                            분야에 대한 깊은 이해와 지식을 쌓았습니다. 대학 시절 동안은 소중한 경험들을 통해 성장하며, 이를 토대로 경북대학교 의과대학 암연구실에서 대학원 석사 과정을
+                            시작했습니다. 암 연구 분야에서 깊은 통찰력을 얻기 위해 노력하며 학문을 발전시키는 경험을 쌓았습니다.
+                        </div>
+
+                        <div>
+                            그러나 대학원 과정을 진행하며 진로에 대한 고민을 하게 되었고, 저는 대학원을 중단하게 되었습니다. 이후 여러 직업을 경험해보기로 마음먹었고, 코리아It학원에서
+                            영업사원으로 활동하며 소통과 커뮤니케이션 능력을 향상시키는 중요한 경험을 쌓았습니다. 또한 명곡초등학교에서 보조선생님으로 일하면서 교육 분야에서의 역량을 키우고,
+                            다양한 아르바이트를 통해 다양한 환경에서의 문제 해결과 협업 능력을 강화하였습니다.
+                        </div>
+
+                        <div>
+                            2023년 3월 16일부터는 영진직업전문학교에서 [K-Digital Training] OpenAPI를 활용한 스마트웹&앱(프론트엔드) 개발자 양성과정 (3기)을
+                            수강하며 기술적 역량을 키우고 새로운 분야에 도전하고 있습니다.
+                        </div>
+
+                        <div>
+                            저는 열정과 끈기를 가진 사람으로서, 어떠한 도전도 적극적으로 받아들이고 해결해 나가는 자세를 가지고 있습니다. 연구하고 공부하는 것이 저에게 큰 즐거움을 주며,
+                            하루하루를 열심히 살아내었을 때 뿌듯함을 느끼는 편입니다. 이러한 열정과 목표지향적인 태도로 제 자신을 도전시키며 성장하는 것을 중요하게 여깁니다.
+                        </div>
+
+                        <div>
+                            또한, 팀에서는 리더 역할을 맡아 팀원을 돌보고 지원하며, 협업과 소통을 통해 모두가 함께 성장할 수 있는 환경을 만들어 가는 것을 중요하게 생각합니다. 평화로운
+                            분위기 속에서 일하는 것을 선호하며, 서로의 강점을 살려 효율적인 팀워크를 이끌어내는 데에 주력하고 있습니다.
+                        </div>
+
+                        <div>
+                            저의 장점을 바탕으로 끊임없는 성장과 발전을 추구하며, 더 나은 미래를 향해 나아가고자 합니다. 지속적인 학습과 기술 개발을 통해 현실의 문제를 해결하고 혁신적인
+                            아이디어를 실현하는 데에 기여하고 싶습니다. 또한, 새로운 도전과 기회를 통해 제 역량을 더욱 향상시켜 사회에 큰 영향을 미치는 개발자로 성장해 나아가겠습니다.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="projectHistory" class="mt-8 flex-col space-y-8">
+                    <div class="text-2xl text-[#3EAF0E] font-bold"><span
+                            class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">5</span> Project
+                        History</div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">🥽 스파밸리 웹사이트 [ 메인, 오시는길 ] 리뉴얼 프로젝트
+                            <span class="text-sm text-gray-600">
+                                23.06.12 - 23.06.30
+                            </span>
+                        </div>
+                        <div>Used Skill : <span class="text-blue-500">#HTML #CSS #JS</span></div>
+                        <div>Project link : <a class="text-gray-400" href="https://spavalley-project.netlify.app/"
+                                target="_blank">https://spavalley-project.netlify.app/</a></div>
+                        <div class="mt-4 space-y-4 ml-4">
+                            <p class="mt-4">학교에서 진행한 첫번째 미니 프로젝트였으며 반응형 웹사이트를 구성하는 것이 목표였으며, 제 역할은 프론트엔드 개발로 웹사이트의 캐러셀 및
+                                API 추가를
+                                맡았습니다.</p>
+
+                            <p>
+                                이 프로젝트는 처음 해보는 경험이었기 때문에 서로의 역할과 중요성에 대해 깊이 생각하게 되었습니다. 팀원 3명이서 기획부터 디자인, 퍼블리싱, 프론트엔드
+                                개발,
+                                그리고 PPT 작성까지 담당하다 보니 어려움도 있었습니다. 각자의 업무가 많았기 때문에 소통의 어려움도 있었지만, 이런 상황에서 우리는 함께 문제를 고민하고
+                                소통하며
+                                해결해 나가는 방법을 찾았습니다. 이러한 경험을 통해 어려움을 돌파하며 더 나은 방향으로 나아가는 방법을 배울 수 있었습니다.
+                            </p>
+
+                            <p>이번에는 캐러셀을 직접 만들어 반응형으로 코드를 구성하는 방법에 대해 고민하는 시간을 많이 가졌습니다. 초기에는 캐러셀 라이브러리를 사용하면서 커스터마이징이
+                                어려웠지만, 이제는 직접 캐러셀을 개발하여 사용하는 과정을 통해 캐러셀을 다루는 것이 익숙해졌습니다.</p>
+                        </div>
+                    </div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">✨ 동성로 소개 웹사이트 제작 프로젝트 ✨
+                            <span class="text-sm text-gray-600">
+                                23.07.05 - 23.08.11
+                            </span>
+                        </div>
+                        <div>Used Skill : <span class="text-blue-500">#HTML #CSS #JS #SASS #REST API</span></div>
+                        <div>Project link : <a class="text-gray-400" href="https://dongseongnorang-project.netlify.app/"
+                                target="_blank">https://dongseongnorang-project.netlify.app/</a></div>
+                        <div class="mt-4 space-y-4 ml-4">
+                            <p class="mt-4">안녕하세요, 저는 4조 르네상스 팀의 팀장 및 프론트엔드 개발자로 참여한 임지찬입니다. 이 프로젝트를 통해 놀라운 성장을 경험했다는 점을
+                                먼저 언급하고
+                                싶습니다.</p>
+
+                            <p>프로젝트에서는 저는 프론트엔드 개발자로서 주로 메인 페이지 퍼블리싱, 그리고 Youtube API, OpenWeathermap API, 공공데이터 API,
+                                KakaoMap API를 활용하는 역할을 맡았습니다. 이런 다양한 API와 기술을 활용하여 프로젝트를 구성하고 개발하는 과정에서 저의 역량을 키울 수
+                                있었습니다.</p>
+
+                            <p>우리 팀은 변화를 두려워하지 않았습니다. 제가 팀원들에게 Sass와 Figma 같은 공부를 제안했을 때, 팀원들은 적극적으로 함께 공부하며 새로운 언어와 도구를
+                                사용해주었습니다. 이러한 우리의 협력과 의지가 좋은 결과물을 도출하는 데 큰 도움이 되었던 것 같습니다. 이렇게 회의와 의논을 통해 아이디어를 자유롭게 나누고
+                                피드백을 주고 받는 문화를 확립한 결과, 업무가 원활하게 진행되었습니다. 각 팀원이 자신의 역할을 충실히 수행해준 덕분에 우리의 성과가 결과물로 나타난 것
+                                같습니다.</p>
+
+                            <p>이 프로젝트는 저에게 큰 보람을 안겨주었습니다. 백엔드와의 연동 작업 중에 발생한 다양한 문제들을 함께 고민하고 해결책을 찾아내는 과정에서 진정한 개발자로서의
+                                성장을 느낄 수 있었습니다. 팀원과 함께 칠판 앞에서 문제를 분석하고 해결 방법을 논의한 그 시간은 정말 기억에 남는 순간이었습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>
